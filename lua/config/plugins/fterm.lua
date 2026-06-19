@@ -3,11 +3,11 @@ return {
     config = function()
         require('FTerm').setup({
             border = 'double',
+            cmd = 'zsh',
             dimensions = {
                 height = 0.9,
                 width = 0.9,
             },
-            cmd = { 'powershell.exe', '-NoLogo' },
         })
 
         -- Keymaps
